@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "NOMBRE DE LA BASE DE DATOS FIREBASE"
+  }
+}
