@@ -23,8 +23,3 @@ function Scroll(){
     	$("body").animate({ scrollTop: $("#item-1").offset().top},1000);
     });
 }
-/*
-if(window.location.hreft.indexOf("http://ww.tumblr.com")==1){
-	window.location.replace("url"+window.location.pathname);
-}
-*/
