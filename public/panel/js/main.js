@@ -7,11 +7,11 @@ function tools(){
 }
 function init(){
   var config = {
-    apiKey: "AIzaSyAA2oobvOeDZUEx-wzj7FJlL4CZIvv0v64",
-    authDomain: "danielarango990-29a5e.firebaseapp.com",
-    databaseURL: "https://danielarango990-29a5e.firebaseio.com",
-    storageBucket: "danielarango990-29a5e.appspot.com",
-    messagingSenderId: "887049675040"
+    apiKey: "API KEY DE LA BASE DE DATOS",
+    authDomain: "DOMINIO DE LA BASE DE DATOS",
+    databaseURL: "URL DE LA BASE DE DATOS",
+    storageBucket: "ID DE LA BASE DE DATOS",
+    messagingSenderId: "ID DE MENSAJERIA"
   };
   firebase.initializeApp(config);
 
