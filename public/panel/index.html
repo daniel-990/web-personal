@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>panel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+        <link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="" href="css/main.css">
+
+        <script src="lib/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+        <script src="lib/materialize.min.js"></script>
+        <script src="lib/vue.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+<section class="container ancho-30 paddin-top-40px">
+ <p class="center">
+   <i class="fa fa-upload font-size-100px" aria-hidden="true"></i>
+   <br>
+   <strong>{Panel de administracion}</strong>
+ </p>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+          <i class="fa fa-user-plus prefix" aria-hidden="true"></i>
+          <input id="usuario" type="text" class="validate">
+          <label for="">Usuario</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+          <i class="fa fa-unlock prefix" aria-hidden="true"></i>
+          <input id="pass" type="password" class="validate">
+          <label for="">Contraseña</label>
+          </div>
+        </div>   
+        <a id="ingresar" class="btn waves-effect waves-light" href="#!">Ingresar</a>
+        <!--<a id="cerrar" class="btn waves-effect waves-light red" href="#!">cerrar</a>-->
+        <a data-position="right" data-delay="50" data-tooltip="Recuperar contraseña" class="tooltipped btn-floating btn-small waves-effect waves-light modal-trigger red" href="#modal1"><i class="fa fa-server" aria-hidden="true"></i></a>
+      </form>
+    </div>
+</section>
+<!--id="restablecer"-->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p><strong>Para recuperar contraseña ingrese el correo electronico asociado a esta cuenta.</strong></p>
+      <input id="correo-recovery" type="text" class="validate" placeholder="correo electronico">
+      <a id="restablecer" class="btn waves-effect waves-light red" href="#!">Enviar</a>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
+  </div>
+    </body>
+</html>

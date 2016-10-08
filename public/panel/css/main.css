@@ -1,0 +1,101 @@
+body{}
+html{}
+
+.fondo-azul{background-color: #0089ec !important;}.border-1px{border: 1px solid red;}
+.fondo-morado{background-color: #9C27B0 !important;}
+
+.fondo-negro{background-color: black;}
+.color-blanco{color:white !important;}
+.color-negro{color:black !important;}
+.color-verde{color:#25D58E;}
+.zindex-2{
+    z-index: 2 !important;
+}
+
+.menu-margin{margin-left: 100px;margin-right: 150px;}.paddin-bottom{padding-bottom: 40px;}.paddin-bottom-60px{padding-bottom: 60px;}.paddin-top-40px{padding-top: 40px;}
+.ancho-20{width: 20% !important;}
+.ancho-30{width: 30% !important;}
+.ancho-40{width: 40% !important;}
+.ancho-50{width: 50% !important;}
+.ancho-80{width: 80% !important;}
+.ancho-85{width: 85% !important;}
+
+.font-size-17px{font-size: 17px !important;}
+.font-size-90px{font-size: 90px !important;}
+.font-size-100px{font-size: 100px !important;}
+.font-size-147px{font-size: 147px !important;}
+.img-cafe{
+    padding-bottom: 25px;
+    padding-top: 50px !important;
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 45% !important;
+    }
+.max-ancho{max-width: inherit;}
+#menu-lateral a {
+    color: white;
+}
+.botonera{
+    position: relative;
+    top: 100px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-menu{
+    margin: 30px;
+    position: fixed;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+}
+.fondo-header{
+    display: table;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/fondos/pexels-photo.jpg) no-repeat center scroll;
+    background-attachment: fixed;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.acerca-de{
+    background: url(../img/fondos/fondo-pixel.jpg) no-repeat center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    margin-top: -28px;
+    max-width: inherit !important;
+}
+.botonera2{
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .botonera{
+        display: none;
+    }
+    #btn-menu-lateral{
+        display: none;
+    }
+    .botonera2{
+        display: inherit;
+        display: inline-flex;
+    }
+    .botonera2 li{
+        padding-left: 5px;
+    }
+}
